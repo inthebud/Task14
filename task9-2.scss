@@ -1,0 +1,162 @@
+@import "scss/header.scss";
+@import "scss/footer.scss";
+html{
+	font-size: 62.5%;
+}
+body,p.strong{
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: #fafafa;
+}
+
+main{
+	padding-bottom: 5rem;
+}
+
+.mainheader1{
+	height: 6.5rem;
+	line-height: 6.5rem;
+	font-size: 1.4rem;
+	border-bottom:solid 2px #e2e2e2;
+}
+.mainheader1>a{
+	color: #29b078;
+	text-decoration: none;
+}
+.line1{
+	display: flex;
+	padding:1rem 0;
+	justify-content: flex-start;
+	border-bottom:solid 1px #e2e2e2;
+}
+.professions>div{
+	display: inline-block;
+	margin:0 1rem;
+	font-size: 1.2rem;
+}
+.text1{
+	color: #999999;
+	flex-shrink: 0;
+}
+.professions>div:hover{
+	color: white;
+	background-color: #29b078;
+}
+.mainheader2{
+	height: 6.5rem;
+	line-height: 6.5rem;
+	color: black;
+	font-weight: 900;
+	font-size: 1.2rem;
+}
+.line2{
+	border-bottom:solid 1px #e2e2e2;
+}
+.form{
+	display: flex;
+	margin-top: 4rem;
+	flex-wrap: wrap;
+	background-color: white;
+	border: solid 1px #e2e2e2;
+	font-size: 1rem;
+}
+.form-line1{
+	display: flex;
+	margin-top: 1rem;
+	padding: 0 0.5rem 0.5rem 0.5rem;
+	border-bottom:solid 1px #e2e2e2;
+	align-items: center;
+}
+.form-text1{
+	width: 60%;
+	margin:1rem 0.5rem;
+}
+.form-img{
+	height: 11.5rem;
+	width: 11.5rem;
+}
+.form-text1>p{
+	margin-top: 1rem;
+	font-size: 1.0rem;
+}
+.form-lines{
+	width: 50%;
+	padding:1rem 0.5rem;
+	font-size: 1rem;
+	color: #999999;
+	border-bottom:solid 1px #e2e2e2;
+	border-right: solid 1px #e2e2e2;
+}
+.form-img1{
+	width: 1.2rem;
+}
+.span1{
+	color: #ff5c00;
+	font-weight: 800;
+}
+.span2{
+	color: black;
+}
+.form-lin3-1{
+	width: 40%;
+	text-align: center;
+	color: #999999;
+	padding:4.5rem 0.5rem;
+	border-bottom:solid 1px #e2e2e2;
+	border-right:solid 1px #e2e2e2;
+}
+.form-lin3-2{
+	width: 60%;
+}
+.form-lin3-2s{
+	display: flex;
+	padding:1rem 0.5rem 1rem 2rem;
+	justify-content: space-between;
+	border-bottom:solid 1px #e2e2e2;
+}
+
+.form-lin4{
+	width: 100%;
+	padding:1rem 0.5rem;
+	border-bottom:solid 1px #e2e2e2;
+	font-size: 1.4rem;
+}
+.span3{
+	color: #ff5c00;
+}
+.form-lin5{
+	width: 100%;
+	padding:1rem 0.5rem;
+}
+.hover{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 3.5rem 3.5rem;
+	margin: 4rem 15px 0 15px;
+	opacity: 0;
+	background-color:rgba(0,0,0,0.8);
+	color: white;
+	font-size: 1.5rem;	
+}
+@media screen and (max-width:768px){
+	.hover{
+		margin:0rem 15px 0 15px;
+	}
+}
+.hover-1{
+	margin:3rem auto;
+	text-align: center;
+}
+.hover:hover{
+	opacity: 0.8;
+    transition: All 1s ease-in-out;
+    transform: rotateY(360deg);
+}
